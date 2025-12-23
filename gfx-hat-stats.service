@@ -1,7 +1,5 @@
 [Unit]
 Description=GFX HAT System Stats Display
-After=network.target docker.service
-Wants=docker.service
 
 [Service]
 Type=simple
